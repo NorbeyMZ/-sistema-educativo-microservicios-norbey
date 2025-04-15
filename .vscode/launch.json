@@ -1,0 +1,84 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "GeneradorClave",
+            "request": "launch",
+            "mainClass": "com.microservicio.usuario.util.GeneradorClave",
+            "projectName": "usuario-servicio"
+        },
+        {
+            "type": "java",
+            "name": "AsignaturasApplication",
+            "request": "launch",
+            "mainClass": "com.microservicio.asignaturas.AsignaturasApplication",
+            "projectName": "microservicio-asignaturas"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MicroservicioEurekaApplication<microservicio-eureka>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.microservicio.eureka.MicroservicioEurekaApplication",
+            "projectName": "microservicio-eureka",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=50899 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=microservicio-eureka"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MicroservicioEstudiantesApplication<microservicio-estudiantes>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.microservicio.estudiantes.MicroservicioEstudiantesApplication",
+            "projectName": "microservicio-estudiantes",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=55530 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=microservicio-estudiantes"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MicroservicioAsignaturasApplication<microservicio-asignaturas>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.microservicio.asignaturas.MicroservicioAsignaturasApplication",
+            "projectName": "microservicio-asignaturas",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=50990 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=microservicio-asignaturas"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MicroservicioConfigApplication<microservicio-config>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.microservicio.config.MicroservicioConfigApplication",
+            "projectName": "microservicio-config",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=59448 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=microservicio-config"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MicroservicioGatewayApplication<microservicio-gateway>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.microservicio.gateway.MicroservicioGatewayApplication",
+            "projectName": "microservicio-gateway",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=59671 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=microservicio-gateway"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-UsuarioServicioApplication<usuario-servicio>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.microservicio.usuario.UsuarioServicioApplication",
+            "projectName": "usuario-servicio",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=59701 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=usuario-servicio"
+        }
+    ]
+}
